@@ -1,0 +1,12 @@
+.default{
+
+    text-align: center;
+    margin-top: 15rem;
+
+    &__warning{
+        font-size: 5rem;
+    }
+    &__link{
+        color:var(--color-secondary);
+    }
+}

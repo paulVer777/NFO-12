@@ -1,0 +1,24 @@
+
+.navbar{
+    height:7vh;
+    background-color:var(--color-primary);
+    display: flex;
+    justify-content: flex-end;   
+    align-items: center;
+    padding: 0 5rem;
+
+    &__link
+    {
+        color:white;
+        text-decoration: none;
+        margin-right: 4rem;
+        opacity: 0.8;
+        transition: all 0.3s;
+
+        &:hover{
+            opacity: 1;
+        }
+    }
+}
+
+

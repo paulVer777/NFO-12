@@ -1,0 +1,15 @@
+
+.list{
+ list-style-type: none;
+ text-align: center;
+ padding: 0;
+ min-height: 30rem;
+
+  &__item{
+   padding:1rem;
+
+    &:nth-child(2n) {
+      color: var(--color-secondary);
+    }
+ }
+}
